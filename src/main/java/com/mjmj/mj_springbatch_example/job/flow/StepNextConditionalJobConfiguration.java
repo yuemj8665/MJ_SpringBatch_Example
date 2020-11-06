@@ -40,8 +40,8 @@ public class StepNextConditionalJobConfiguration {
     // to : 다음으로 이동 할 Step 설정
     // from : 이벤트 리스너 역할, 상태값을 보고 일치한다면 to에 있는 step 실행. step 1에서 FAILED로 되어있으면 추가적으로 from으로 이벤트 캐치 필요.
     // end : FlowBuilder를 반환하는 end와 종료하는 end로 이루어져 있다.
-    //  on("*") 뒤에 있는 end는 반환하는 end
-    //  build() 앞에 있는 end는 종료하는 end
+    // on("*") 뒤에 있는 end는 반환하는 end
+    // build() 앞에 있는 end는 종료하는 end
     // 반환하는 end를 사용 시 from을 사용하면 계속해서 이어갈 수 있다.
 
     @Bean
